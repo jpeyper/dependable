@@ -1,4 +1,4 @@
-![logo](./media/LOGO.png)
+![logo](./media/Square-Logo.png)
 
 # Dependable
 
@@ -29,8 +29,9 @@ yarn
 cd ..
 yarn
 ```
+Dependable requires your JIRA username:password for basic authentication.
 
-Setup the BFFs .env file
+Create and setup the .env file for the BFF
 
 ```
 echo "API_JIRA_HOST=https://jira-uat.auiag.corp
@@ -40,7 +41,7 @@ API_SECRET=" > bff/.env
 
 Then open `bff/.env` and input your password
 
-If you want to use the production Jira, change the host to `https://jira.iag.com.au`
+The host can be changed to a Production or other JIRA instance by modifying the API_JIRA_HOST domain.
 
 ## Usage
 
@@ -61,15 +62,14 @@ Your browser should open to http://localhost:3000
 
 ### Project View
 
-Enter your JIRA project id and search for your tickets, displayed in a graphical form and shows depended tickets with arrows. Plus a time line at the bottom of the chart.
+Enter your JIRA project code or Project ID and click create to display all outstanding features, displayed in a graphical form with links to all dependent tickets and their scheduled dates. The timeline at the bottom of the chart displays the earliest possible date the tickets can start based on their dependencies and planned sprints.
 
 ### Unscheduled Features
 
-Shows a table of tickets and dependencies there were unable to be incided in the project view to help start conversations.
+Shows a table of tickets and dependencies there were unable to be incided in the project view as they are unscheduled. The primary use of this is to help facilitate conversations between delivery teams about scheduling in dependent features.
 
 ### Contributors
 
-- **Thomas Burleigh**
 - **Joseph Garner**
 - **Jo Peyper**
 - **Maysam Tayyeb**
