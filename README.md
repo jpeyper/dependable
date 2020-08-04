@@ -35,7 +35,7 @@ Dependable requires your JIRA username:password for basic authentication.
 Create and setup the .env file for the BFF
 
 ```
-echo "API_JIRA_HOST=https://jira-uat.auiag.corp
+echo "API_JIRA_HOST=https://jira-uat.company.com
 API_USERNAME=$(whoami)
 API_SECRET=" > bff/.env
 ```
