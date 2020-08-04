@@ -16,8 +16,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![screen1](./media/screenshot1.png)
 
-![improve](./media/improveGantt2.png)
-
 
 
 
