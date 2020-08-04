@@ -2,21 +2,24 @@
 
 # Dependable
 
-Hackathon project to attempt to model inter-team dependencies transparently and beautifully
+A hackathon project that attempts to model inter-team dependencies transparently and beautifully
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Screenshot
 
-![screen1](./media/screenshot1.png)
-
-![screen2](./media/improveGantt.png)
-
-![improve](./media/improveGantt2.png)
+![screen4](./media/screenshot4.png)
 
 ![screen3](./media/screenshot3.png)
 
-![screen4](./media/screenshot4.png)
+![screen2](./media/improveGantt.png)
+
+![screen1](./media/screenshot1.png)
+
+![improve](./media/improveGantt2.png)
+
+
+
 
 ## Installation
 
